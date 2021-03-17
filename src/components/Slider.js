@@ -34,7 +34,9 @@ export default function Slider() {
                <img src="./images/gallery1.jpg" alt="" />
                <div className="slide__content">
                   <p>website</p>
+                  <a href="/case/iplaymusic">
                   <h2>Creating an immersive digital experience for all music lovers.</h2>
+                  </a>
                   <figure className="slide__contentLogo">
                      <img src="./images/iplaymusic.png" alt="" />
                   </figure>
@@ -46,7 +48,9 @@ export default function Slider() {
                <img src="./images/gallery2.jpg" alt="" />
                <div className="slide__content">
                   <p>website</p>
+                  <a href="/case/iplaymusic">
                   <h2>Developing a new digital platform for exclusive real-estate in Hawaii.</h2>
+                  </a>
                   <figure className="slide__contentLogo">
                      <img src="./images/iplaymusic.png" alt="" />
                   </figure>
@@ -58,7 +62,9 @@ export default function Slider() {
                <img src="./images/gallery3.jpg" alt="" />
                <div className="slide__content">
                   <p>website</p>
+                  <a href="/case/iplaymusic">
                   <h2>Designing a bold and dynamic online experience for the social media group.</h2>
+                  </a>
                   <figure className="slide__contentLogo">
                      <img src="./images/iplaymusic.png" alt="" />
                   </figure>

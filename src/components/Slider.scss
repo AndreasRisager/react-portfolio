@@ -27,6 +27,11 @@
          font-weight: 700;
          letter-spacing: 0.5px;
          padding-bottom: 2rem;
+         cursor: default;
+      }
+      a:hover {
+         text-decoration: underline;
+         text-decoration-color: #a5a3a3cc;
       }
       h2 {
          font-size: 3vw;
