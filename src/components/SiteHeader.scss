@@ -1,0 +1,21 @@
+.SiteHeader {
+   &__content {
+      width: 82%;
+      margin: 11vw auto 70px;
+      h1 {
+         transition: font-size 0.3s ease;
+         color: #e4e4e4;
+         font-size: 4.4rem;
+         font-weight: 600;
+         font-family: 'Playfair Display', serif;
+         padding-bottom: 2.5rem;
+      }
+      h2 {
+         transition: font-size 0.3s ease;
+         font-size: 3.4rem;
+         font-weight: 500;
+         font-family: 'Quicksand', sans-serif;
+         color: #a5a3a3cc;
+      }
+   }
+}

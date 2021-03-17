@@ -1,0 +1,36 @@
+.navigation {
+   margin: 3.5rem;
+   &__list {
+      display: flex;
+      align-items: center;
+      li {
+         list-style: none;
+         font-size: 1.5rem;
+         padding: 0 2rem;
+         text-transform: capitalize;
+         a {
+            color: #e2e2e2;
+         }
+      }
+   }
+   &__logo {
+      margin-right: auto;
+      a {
+         font-size: 2rem;
+      }
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .navigation {
+      &__list {
+         display: block;
+         li {
+            margin: 0 0 10px;
+         }
+      }
+      &__logo {
+         margin: 0 0 30px!important;
+      }
+   }
+}
