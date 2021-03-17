@@ -15,11 +15,11 @@ export default function Case() {
     return (
         <article className="case">
         
-            <Parallax style={{left: "15vw"}} bgImage="../images/gallery1.jpg" strength={500} blur={{ min: -15, max: 13 }}>
-                <div style={{ height: "100vh"}}/>
+            <Parallax bgImage="../images/gallery1.jpg" bgImageStyle={{height: '120vh'}} strength={500} blur={{ min: -15, max: 13 }}>
+                <div style={{ height: "100vh"}}><SiteHeader h1="Creating an immersive digital experience for all music lovers." h2="iplaymusic" casestudy /></div>
             </Parallax>
 
-            <SiteHeader h1="Creating an immersive digital experience for all music lovers." h2="iplaymusic" casestudy />
+            
 
             <div style={{ height: "100vh" }}></div>
 
