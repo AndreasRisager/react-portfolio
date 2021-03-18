@@ -1,4 +1,40 @@
 .case {
     overflow: hidden;
     position: relative;
+    h1 {
+        transition: font-size 0.3s ease;
+        color: #e4e4e4;
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-family: 'Quicksand', sans-serif;
+        color: #a5a3a3;
+        padding-bottom: 2.5rem;
+    }
+    h2 {
+        transition: font-size 0.3s ease;
+        font-size: 6rem;
+        font-weight: 500;
+        font-family: 'Quicksand', sans-serif;
+        color: #a5a3a3;
+    }
+    p {
+
+    }
+}
+.caseHeader {
+    &__content {
+        width: 82%;
+        margin: 11vw auto 11vw;
+        .content__subheading {
+            font-size: 5vw;
+            transition: none;
+        }
+    }
+}
+.caseIntroduction {
+    h2 {
+        max-width: 1050px;
+        margin: 0 auto;
+        padding: 10rem 2rem;
+    }
 }

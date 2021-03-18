@@ -35,7 +35,7 @@ export default function Slider() {
                <div className="slide__content">
                   <p>website</p>
                   <a href="/case/iplaymusic">
-                  <h2>Creating an immersive digital experience for all music lovers.</h2>
+                  <h2>Creating an immersive digital experience to anyone who loves music.</h2>
                   </a>
                   <figure className="slide__contentLogo">
                      <img src="./images/iplaymusic.png" alt="" />

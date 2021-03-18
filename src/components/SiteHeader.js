@@ -1,13 +1,13 @@
 import Navigation from "./Navigation";
 import "./SiteHeader.scss";
 
-export default function SiteHeader({ h1, h2, casestudy }) {
+export default function SiteHeader() {
     return (
       <header className="SiteHeader">
          <Navigation />
          <div className="SiteHeader__content">
-            <h1 style={{maxWidth: casestudy ? "800px" : ""}}>{h1}</h1>
-            <h2>{h2}</h2>
+            <h1>Developing a better and brighter future.</h1>
+            <h2>We create innovative digital experiences.</h2>
          </div>
       </header>
     );

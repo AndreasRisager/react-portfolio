@@ -1,23 +1,39 @@
-import SiteHeader from "../components/SiteHeader";
+import Navigation from "../components/Navigation";
 import "./Case.scss";
-import { Parallax } from 'react-parallax';
+import { Parallax, ParallaxBanner } from 'react-scroll-parallax';
 
-const insideStyles = {
-    position: "absolute",
-    top: "0",
-    left: "0",
-    right: "0",
-    bottom: "0",
-    height: "100vh",
-};
 
 export default function Case() {
     return (
         <article className="case">
-        
-            <Parallax bgImage="../images/gallery1.jpg" bgImageStyle={{height: '120vh'}} strength={500} blur={{ min: -15, max: 13 }}>
-                <div style={{ height: "100vh"}}><SiteHeader h1="Creating an immersive digital experience for all music lovers." h2="iplaymusic" casestudy /></div>
-            </Parallax>
+            <header className="caseHeader">
+                <Navigation />
+                <div className="caseHeader__content">
+                    <h1 className="content__heading">iplaymusic</h1>
+                    <h2 className="content__subheading">With iplaymusic, it's easy to find the right music for every moment</h2>
+                </div>
+            </header>
+
+            <section className="caseIntroduction">
+                <ParallaxBanner
+                layers={[{image: '../images/gallery1.jpg', amount: 0.25}]}
+                style={{height: '100vh'}}/>
+
+                <h2>iplaymusic uses spotify's api to get all the artists and songs for this app</h2>
+
+                <ParallaxBanner
+                layers={[{image: '../images/gallery3.jpg', amount: 0.15}]}
+                style={{height: '100vh'}}/>
+            </section>
+
+            <section>
+                <h2>whether you’re partying or relaxing, the right music is always at your fingertips.</h2>
+                <p>Seamlessly listen to music you love. Download the iplaymusic app on appstore.</p>
+                <div className="grid">
+
+                </div>
+            </section>
+            
 
             
 
